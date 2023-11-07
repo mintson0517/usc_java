@@ -21,8 +21,7 @@ public class File_001_BMI {
         double heightM = height / 100.0;
         double bmi = weight / (heightM * heightM);
 
-        System.out.printf("sid:%s, age:%dyears old, height:%dcm, weight:%dkg, BMI:%.1f\n", sid, age, height, weight,
-                bmi);
+        System.out.printf("sid:%s, age:%dyears old, height:%dcm, weight:%dkg, BMI:%.1f\n", sid, age, height, weight,bmi);
 
         scanner.close();
     }
